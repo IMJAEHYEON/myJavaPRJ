@@ -7,6 +7,9 @@ public class Hello {
 
 
         System.out.println("Edit Java Code!!");
+
+
+        System.out.println("Edit Github Code");
     }
 
 }
