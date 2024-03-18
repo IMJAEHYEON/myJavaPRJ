@@ -15,5 +15,6 @@ public class Code02_07 {
 
         result = num1 / num2;
         System.out.println(num1 + "/" + num2 + "=" + result);
+
     }
 }
