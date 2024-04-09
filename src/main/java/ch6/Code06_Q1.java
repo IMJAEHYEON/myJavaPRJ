@@ -14,7 +14,7 @@ public class Code06_Q1 {
         int a = s.nextInt();
         int b = s.nextInt();
 
-        for (; a < b ; a++) {
+        for (; a < b; a++) {
             System.out.println(a + " ");
         }
     }
