@@ -26,7 +26,8 @@ public class Code07_11 {
         Rabbit6 rabbit3 = new Rabbit6("토끼");
 
 
-        System.out.printf("토끼 객체의 기본 모양은 [%s]입니다.",rabbit1.shape);
-        System.out.printf("토끼 객체의 기본 모양은 [%s]입니다.",rabbit2.shape);
-        System.out.printf("토끼 객체의 기본 모양은 [%s]입니다.",rabbit3.shape);
+        System.out.printf("토끼 객체의 기본 모양은 [%s]입니다.", rabbit1.shape);
+        System.out.printf("토끼 객체의 기본 모양은 [%s]입니다.", rabbit2.shape);
+        System.out.printf("토끼 객체의 기본 모양은 [%s]입니다.", rabbit3.shape);
     }
+}
