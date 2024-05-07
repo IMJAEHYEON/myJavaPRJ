@@ -6,10 +6,10 @@ class Rabbit { // 실제 코드에서는 권장하지않는 형식
     int yPos; // Y 위치
 
     void setPosition(int x, int y){
-        xPos = x;
-        yPos = y;
+        this.xPos = x;
+        this.yPos = y;
 
-        System.out.println("xPos : " + xPos + " / yPos : " + yPos);
+        System.out.println("xPos : " + this.xPos + " / yPos : " + this.yPos);
     }
 }
 
