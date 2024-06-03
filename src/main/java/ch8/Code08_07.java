@@ -1,4 +1,4 @@
-package ch08;
+package ch8;
 
 abstract class Rabbit6{
     String shape;

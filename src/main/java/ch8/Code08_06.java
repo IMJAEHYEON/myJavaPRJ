@@ -1,4 +1,4 @@
-package ch08;
+package ch8;
 class Rabbit5{
     int xPos;
     int yPos;

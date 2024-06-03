@@ -1,4 +1,4 @@
-package ch08;
+package ch8;
 
 class Rabbit1{
     String shape;
@@ -13,9 +13,15 @@ class Rabbit1{
     }
 }
 class HouseRabbit1 extends Rabbit1{
+
     String owner;
     void eatFeed(){
         System.out.println("집토끼가 사료를 먹습니다.");
+    }
+
+    @Override
+    void move(int x, int y) {
+        System.out.println("나는 덮어쓰기한 이동 함수입니다.");
     }
 }
 class MountainRabbit1 extends Rabbit1{

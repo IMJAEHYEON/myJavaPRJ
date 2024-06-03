@@ -1,4 +1,4 @@
-package ch08;
+package ch8;
 class Rabbit{
     String shape;
     int xPos;

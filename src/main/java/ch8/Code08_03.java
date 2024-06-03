@@ -1,10 +1,10 @@
-package ch08;
-class Rabbit2{
-    String shape;
-    int xPos;
-    int yPos;
+package ch8;
+class Rabbit2 {
+    String shape; // private String shape;
+    int xPos; // private int xPos;
+    int yPos; // private int yPos;
 
-    void move(int x,int y){
+    void move(int x, int y) { // private void move(int x,int y){
         this.xPos = x;
         this.yPos = y;
 
@@ -29,12 +29,12 @@ public class Code08_03 {
         HouseRabbit2 hRabbit = new HouseRabbit2();
         MountainRabbit2 mRabbit = new MountainRabbit2();
 
-        hRabbit.shape = "삼각형";
+        hRabbit.shape = "삼각형"; // private 사용시 제외
         hRabbit.owner = "난생이";
         hRabbit.move(100,100);
         hRabbit.eatFeed();
 
-        mRabbit.shape = "네모";
+        mRabbit.shape = "네모"; // private 사용시 제외
         mRabbit.mountain = "설악산";
         mRabbit.move(200,200);
         mRabbit.eatWildGlass();
