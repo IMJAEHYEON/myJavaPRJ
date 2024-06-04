@@ -1,3 +1,5 @@
+package ch_List;
+
 import java.util.ArrayList;
 import java.util.Iterator;
 import java.util.List;
@@ -7,7 +9,7 @@ public class ListExam {
         List<String> list = new ArrayList<>();
 
         // List 객체에 데이터 추가
-        list.add("임재현");
+        list.add("이협건");
         list.add("홍길동");
         list.add("임꺽정");
         list.add("고길동");
