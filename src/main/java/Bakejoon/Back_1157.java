@@ -3,7 +3,7 @@ package Bakejoon;
 import java.util.Scanner;
 
 public class Back_1157 {
-    public static void main(String args[]) {
+    public static void main(String[] args) {
         Scanner s = new Scanner(System.in);
         String[] inp = s.next().toUpperCase().split("");
         int[] count = new int[inp.length];
