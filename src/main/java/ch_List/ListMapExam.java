@@ -33,7 +33,7 @@ public class ListMapExam {
 
             map = null; // 다 사용하면 메모리 버리기
         }
-        // List 저장된 데이터 수ㅊ
+        // List 저장된 데이터 수
         int listSize = list.size();
 
         System.out.println("저장된 데이터 수 : " + listSize);
